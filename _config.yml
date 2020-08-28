@@ -9,7 +9,7 @@ author: Raúl Millán
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Acerca de mi: "aboutme"
+  BIO: "bio"
   Eventos: "events"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"

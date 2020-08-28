@@ -4,14 +4,6 @@ title: Acerca de mi
 subtitle: Información sobre mi experiencia
 ---
 
-Mi nombre es Raúl Millán. Mis areas de especialización son:
-
-- Arquitectura de nube
-- Seguridad en Microsoft 365
-- Seguridad cibernetica
-
-### Mi historia
-
 Experto en la materia de seguridad cibernética con cerca de 20 años de experiencia en el campo.  Mis especialidades son: desarrollo de politicas/procesos/procedimientos, pruebas de intrusión y análisis de vulnerabilidad, selección, implementación y gestión de controles de seguridad, [gestión de amenazas](https://raulmillan.wordpress.com/2018/05/15/gestion-de-amenazas/), arquitectura de seguridad de nube, [protección de infraestructura crítica](https://raulmillan.wordpress.com/2018/04/19/informe-sobre-proteccion-de-infraestructura-critica-en-latinoamerica-y-el-caribe-2018/), gerenciamiento de grupos de trabajo de seguridad de la información y respuesta a incidentes de seguridad cibernética, asi como gestión de la gobernanza de las funciones relacionadas con seguridad cibernética.
 
 He sido responsable de la Unidad de Seguridad de Sistemas del Canal de Panamá, y anteriormente estuve a cargo del Centro Nacional de Respuesta a Incidentes ([CSIRT Panama](https://www.cert.pa/)) en la Autoridad Nacional para la Innovación Gubernamental.
