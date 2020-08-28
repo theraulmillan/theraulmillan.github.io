@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de mi
+title: BIO
 subtitle: Información sobre mi experiencia
 ---
 
