@@ -10,6 +10,7 @@ author: Raúl Millán
 
 navbar-links:
   Acerca de mi: "aboutme"
+  Eventos: "events"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
