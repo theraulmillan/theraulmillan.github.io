@@ -13,7 +13,7 @@ navbar-links:
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://theraulmillan.github.io"
+  Home: "https://theraulmillan.github.io"
 
 # --- Logo --- #
 
@@ -38,6 +38,8 @@ social-network-links:
   facebook: raulmillan
   github: theraulmillan
   twitter: raulmillan
+  telegram: @theraulmillan
+  instagram: theraulmillan
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -68,6 +70,7 @@ share-links-active:
   facebook: true
   linkedin: true
   instagram: true
+  telegram: true
   vk: false
   telegram: true
 

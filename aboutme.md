@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Acerca de mi
+subtitle: Información sobre mi experiencia
 ---
 
 Mi nombre es Raúl Millán. Mis areas de especialización son:
