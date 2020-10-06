@@ -11,6 +11,7 @@ author: Raúl Millán
 navbar-links:
   BIO: "bio"
   Eventos: "events"
+  Conferencias: "conferences"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
