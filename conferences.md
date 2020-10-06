@@ -7,6 +7,9 @@ subtitle: Partipación como expositor o panelista
 ### 2013
 
 * **130424** – Organizador – Ejercicio de Gestión de Crisis Cibernética – Simulacro de Ataques a Infraestructuras Críticas Nacionales – Organización de Estados Americanos. Panamá.
+
+![](assets/img/img_0550.jpg)
+
 * **130624** – Ejercicio Regional sobre el Manejo de Incidentes Cibernéticos, mesa redonda discutiendo el tema de “Seguridad Cibernética y sus Implicaciones sobre la Economía y el Sector Financiero”, y SEGUNRINFO. Organización de Estados Americanos. Washington, D.C.
 * **130916** – Panelista – McAfee Security Summit 2013. Ciudad de Panamá.
 * **131015** – Expositor – Simposio “Delitos informáticos en Panamá” -Universidad Tecnológica de Panamá.
@@ -15,12 +18,17 @@ subtitle: Partipación como expositor o panelista
 ### 2014
 
 * **140314** – Expositor – Cyber capacity building as a development issue: What role for regional organisations? –  European Union Institute for Security Studies – Paris, Francia.
+
+![](assets/img/img_5755.jpg)
+
 * **140429** – Expositor y organizador – “Segurinfo Panamá 2014” – Ciudad de Panamá.
 * **140922** – Instructor – Cyber Security Capacity Building – National Cyber Security Technical Assistance Mission – Organización de Estados Americanos – St. Kitts and Neves.
 
 ### 2015
 
 * **150223** – Panelista – Cyber NEEDS and development: identifying the needs of Networks Enhancing the Economy, Development and Security (NEEDS) –   European Union Institute for Security Studies – Bruselas, Belgica.
+
+![](assets/img/img_5286.jpg)
   
 ### 2016
 
@@ -36,6 +44,9 @@ subtitle: Partipación como expositor o panelista
 * **170419** – Expositor – Checkpoint Experience 2017 – Checkpoint Software Technologies – Las Vegas, Nevada – EEUU.
 * **170727** – Panelista – Fortinet CyberSecurity Summit (FCS17) – Panel: La Nueva Era de la Ciberseguridad – Fortinet – Ciudad de Panamá.
 * **170805** – Panelista – “Gobernanza de Internet, Ciberseguridad e IoT” – Internet Society – Capitulo de Panamá.
+
+![](assets/img/img_64211.jpg)
+
 * **170914** – Expositor – Subregional Workshop on Protection of Critical Infrastructure: Cybersecurity and Border Protection – Organización de Estados Americanos – Ciudad de Panamá
 * **170928** – Expositor – Retos de la Seguridad en la Transformación Digital en Panamá – Ciudad de Panamá.
 * **170930** – Panelista – Pasado, presente y futuro del IPv6 en Panamá – Internet Society – Capitulo de Panamá.
