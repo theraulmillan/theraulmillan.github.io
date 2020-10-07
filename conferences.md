@@ -14,7 +14,7 @@ subtitle: Partipación como expositor o panelista
 * **130916** – Panelista – McAfee Security Summit 2013. Ciudad de Panamá.
 * **131015** – Expositor – Simposio “Delitos informáticos en Panamá” -Universidad Tecnológica de Panamá.
 
-![alt](assests/img/../../assets/img/img_4028.jpg) | ![alt](assests/img/../../assets/img/img_4147.jpg)
+![alt](assests/img/../../assets/img/img_4028.jpg){width=50%} ![alt](assests/img/../../assets/img/img_4147.jpg){width=50%}
 
 * **131111** – Panelista – Simposio Regional de Seguridad Cibernética. Organización de Estados Americanos – Motevideo, Uruguay.
 
