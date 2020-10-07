@@ -23,19 +23,43 @@ subtitle: Eventos donde he participado
 * **130624** – [Ejercicio Regional sobre el Manejo de Incidentes Cibernéticos, mesa redonda discutiendo el tema de “Seguridad Cibernética y sus Implicaciones sobre la Economía y el Sector Financiero”, y SEGUNRINFO](https://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=C-249/13). Organización de Estados Americanos. Washington, D.C.
 * **131202** – [Octopus Conference – Cooperation Against Cybercrime](Octopus Conference – Cooperation Against Cybercrime) – Council of Europe – Strasbourg, France 
 
+<p align="center">
+  <img width=200px  src="https://the.raulmillan.com/assets/img/img_4316.jpg">
+  <img width=400px  src="https://the.raulmillan.com/assets/img/img_4446.jpg">
+</p>
+
 ### 2014
 
 * **140507** –  Checkpoint Experience (CPX2014) –  Checkpoint Software Technologies – Washington, D.C, EEUU.
 * **140609** – [ICS Training in Idaho Falls](https://secure.inl.gov/icsadv0618/) – Organización de Estados Americanos. Idaho Falls, Idaho, EEUU. 
 
+<p align="center">
+  <img width=300px height=200px src="https://the.raulmillan.com/assets/img/img_20140715_180751537.jpg">
+  <img width=250px height=200px src="https://the.raulmillan.com/assets/img/img_1680.jpg">
+</p>
+
 ### 2016
 
 * **160129** – [CyberTech 2016](https://www.cybertechisrael.com/program-2016) – Tel Aviv, Israel.
 
+<p align="center">
+  <img width=500px src="https://the.raulmillan.com/assets/img/20160131124248.jpg">
+</p>
+
 ### 2017
 
 * **170213** – [RSA Conference](https://www.rsaconference.com/events/us17) – San Francisco, California, EEUU.
+
+<p align="center">
+  <img width=300px src="https://the.raulmillan.com/assets/img/img_39451.jpg">
+</p>
+
 * **170907** – [Microsoft Executive Business Center Briefing](https://www.microsoftredmondebc.com/) – Microsoft – Redmond, Seattle.
+
+<p align="center">
+  <img width=300px height=350px src="https://the.raulmillan.com/assets/img/img_6515.jpg">
+  <img width=250px height=350px src="https://the.raulmillan.com/assets/img/img_6514.jpg">
+</p>
 
 ### 2018
 
@@ -49,4 +73,9 @@ subtitle: Eventos donde he participado
 
 ### 2019
 
-* **190221** – [Cybertech Latin America](https://panama.cybertechconference.com/) – Cybertech Israel – Ciudad de Panamá. 
+* **190221** – [Cybertech Latin America](https://panama.cybertechconference.com/) – Cybertech Israel – Ciudad de Panamá.
+
+<p align="center">
+  <img width=200px src="https://the.raulmillan.com/assets/img/img_4003.jpeg">
+  <img width=350px src="https://the.raulmillan.com/assets/img/img_4007.jpeg">
+</p>
