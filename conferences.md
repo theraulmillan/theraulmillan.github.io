@@ -63,3 +63,7 @@ subtitle: Partipación como expositor o panelista
 
 * **190522** – Panelista – [“Internet, más que las redes sociales”](https://www.ipandetec.org/events/internet-mas-que-las-redes-sociales/) – IPANDETEC – Ciudad de Panamá.
 * **190624** – Panelista – [“Biometría e Integridad de Datos Personales”](Biometría e Integridad de Datos Personales) – II Foro de Gobernanza de Internet (IGF)- Ciudad de Panamá.
+
+### 2020
+
+* **201006** – Expositor – [4to foro de Ciberseguridad "Conectados por la seguridad una responsabilidad de todos"](https://cert.pa/2020/10/iv-foro-de-ciberseguridad-conectados-por-la-seguridad-una-responsabilidad-de-todos/) - Autoridad Nacional para la Innovación Gubernamental - CSIRT Panamá.
