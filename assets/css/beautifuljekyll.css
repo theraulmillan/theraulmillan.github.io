@@ -927,3 +927,8 @@ pre {
   font-style: italic;
   font-size: 1rem;
 }
+
+img[src*="#thumbnail"] {
+  width:150px;
+  height:100px;
+}
