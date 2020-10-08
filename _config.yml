@@ -79,13 +79,13 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "theraulmillan.github.io"
+url-pretty: "the.raulmillan.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "cloud,cybersecurity,microsoft 365,office 365,azure"
+keywords: "cloud,cybersecurity,microsoft 365,office 365,azure,architecture,aws,cloud security,risk,csirt,isoc,apwg,cybercrime,microsoft,defender,insider risk,zero trust,critical infrastructure,digital crimes"
 
 # --- Colours / background image --- #
 
