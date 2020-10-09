@@ -79,3 +79,7 @@ subtitle: Eventos donde he participado
   <img width=200px src="https://the.raulmillan.com/assets/img/img_4003.jpeg">
   <img width=350px src="https://the.raulmillan.com/assets/img/img_4007.jpeg">
 </p>
+
+### 2020
+
+* **200928** [Simposio de Ciberseguridad de la OEA](https://mcusercontent.com/353ff0663258ae5a775d460db/files/606e00a7-270a-47fd-8881-4c322ea3fdc9/AGENDA_SIMPOSIO_2020.pdf). Organización de Estados Americanos.
