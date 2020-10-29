@@ -6,11 +6,9 @@ subtitle: Información sobre mi experiencia
 
 Experto en la materia de seguridad cibernética con cerca de 20 años de experiencia en el campo.  Mis especialidades son: desarrollo de politicas/procesos/procedimientos, pruebas de intrusión y análisis de vulnerabilidad, selección, implementación y gestión de controles de seguridad, [gestión de amenazas](https://raulmillan.wordpress.com/2018/05/15/gestion-de-amenazas/), arquitectura de seguridad de nube, [protección de infraestructura crítica](https://raulmillan.wordpress.com/2018/04/19/informe-sobre-proteccion-de-infraestructura-critica-en-latinoamerica-y-el-caribe-2018/), gerenciamiento de grupos de trabajo de seguridad de la información y respuesta a incidentes de seguridad cibernética, asi como gestión de la gobernanza de las funciones relacionadas con seguridad cibernética.
 
-He sido responsable de la Unidad de Seguridad de Sistemas del Canal de Panamá, y anteriormente estuve a cargo del Centro Nacional de Respuesta a Incidentes ([CSIRT Panama](https://www.cert.pa/)) en la Autoridad Nacional para la Innovación Gubernamental.
+He sido responsable del Centro Nacional de Respuesta a Incidentes ([CSIRT Panama](https://www.cert.pa/)) en la Autoridad Nacional para la Innovación Gubernamental; también estuve a cargo de la Unidad de Seguridad de Sistemas de [Cable & Wireless Panamá](https://www.cwpanama.com/), lugar donde trabaje por casi 7 años.
 
 Durante la gestión en el CSIRT Panamá, se llevaron a cabo importantes proyectos estrategicos y de infraestructura, tales como el desarrollo de la [Estrategia Nacional de Seguridad Cibernetica y Protección de Infraestructuras Criticas](https://www.gacetaoficial.gob.pa/pdfTemp/27289_A/GacetaNo_27289a_20130517.pdf), [acceso de Panamá a Convención de Budapest sobre Delitos Ciberneticos (Consejo de Europa)](http://gacetas.procuraduria-admon.gob.pa/27403-A_2013.pdf), aseguramiento de la Red Nacional Multiservicios del Estado, entre otros.
-
-También estuve a cargo de la Unidad de Seguridad de Sistemas de [Cable & Wireless Panamá](https://www.cwpanama.com/), lugar donde trabaje por casi 7 años.
 
 Egresado de la [Universidad Tecnologica Centroamericana]((http://www.unitec.edu/)) (Honduras) con el titulo de Licenciatura en Sistemas de Información Administrativa.
 
