@@ -4,6 +4,16 @@ title: BIO
 subtitle: Información sobre mi experiencia
 ---
 
+## Resumen
+
+* Presidente - [Internet Society - Capitulo de Panamá](https://www.isoc.org.pa)
+* Voluntario - [Para.Piensa.Conectate](https://www.parapiensaconectate.org.pa/)
+* Miembro - [Cibersecurity SIG - ISOC](https://www.linkedin.com/company/cybersecuritysig/?originalSubdomain=ci)
+* Miembro - [Antiphishing Working Group (APWG)](https://apwg.org/)
+* Miembro - [Cloud Security Alliance - Panama Chapter (CSA)](https://cloudsecurityalliance.org/)
+
+## BIO
+
 Experto en la materia de seguridad cibernética con cerca de 20 años de experiencia en el campo.  Mis especialidades son: desarrollo de politicas/procesos/procedimientos, pruebas de intrusión y análisis de vulnerabilidad, selección, implementación y gestión de controles de seguridad, [gestión de amenazas](https://raulmillan.wordpress.com/2018/05/15/gestion-de-amenazas/), arquitectura de seguridad de nube, [protección de infraestructura crítica](https://raulmillan.wordpress.com/2018/04/19/informe-sobre-proteccion-de-infraestructura-critica-en-latinoamerica-y-el-caribe-2018/), gerenciamiento de grupos de trabajo de seguridad de la información y respuesta a incidentes de seguridad cibernética, asi como gestión de la gobernanza de las funciones relacionadas con seguridad cibernética.
 
 He sido responsable del Centro Nacional de Respuesta a Incidentes ([CSIRT Panama](https://www.cert.pa/)) en la Autoridad Nacional para la Innovación Gubernamental; también estuve a cargo de la Unidad de Seguridad de Sistemas de [Cable & Wireless Panamá](https://www.cwpanama.com/), lugar donde trabaje por casi 7 años.
