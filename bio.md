@@ -11,6 +11,8 @@ subtitle: Información sobre mi experiencia
 * Miembro - [Cibersecurity SIG - ISOC](https://www.linkedin.com/company/cybersecuritysig/?originalSubdomain=ci)
 * Miembro - [Antiphishing Working Group (APWG)](https://apwg.org/)
 * Miembro - [Cloud Security Alliance - Panama Chapter (CSA)](https://cloudsecurityalliance.org/)
+* Co-autor - [Estrategia Nacional de Seguridad Cibernética y Protección de Infraestructuras Críticas - 2013](https://www.gacetaoficial.gob.pa/pdfTemp/27289_A/GacetaNo_27289a_20130517.pdf)
+* Responsable - [Aprobación del Convenio sobre la ciberdelincuencia - Convención de Budapest](http://gacetas.procuraduria-admon.gob.pa/27403-A_2013.pdf)
 
 ## BIO
 
