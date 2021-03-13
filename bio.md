@@ -6,7 +6,7 @@ subtitle: Información sobre mi experiencia
 
 ## Resumen
 
-* Presidente - [Internet Society - Capitulo de Panamá](https://www.isoc.org.pa)
+* Ex-Presidente - [Internet Society - Capitulo de Panamá](https://www.isoc.org.pa)
 * Voluntario - [Para.Piensa.Conectate](https://www.parapiensaconectate.org.pa/)
 * Miembro - [Cibersecurity SIG - ISOC](https://www.linkedin.com/company/cybersecuritysig/?originalSubdomain=ci)
 * Miembro - [Antiphishing Working Group (APWG)](https://apwg.org/)
