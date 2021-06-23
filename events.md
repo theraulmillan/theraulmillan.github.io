@@ -31,7 +31,7 @@ subtitle: Eventos donde he participado
 ### 2014
 
 * **140507** –  Checkpoint Experience (CPX2014) –  Checkpoint Software Technologies – Washington, D.C, EEUU.
-* **140609** – [ICS Training in Idaho Falls](https://secure.inl.gov/icsadv0618/) – Organización de Estados Americanos. Idaho Falls, Idaho, EEUU. 
+* **140609** – [ICS Training in Idaho Falls](https://us-cert.cisa.gov/ics/Training-Available-Through-ICS-CERT#workshop) – Organización de Estados Americanos. Idaho Falls, Idaho, EEUU. 
 
 <p align="center">
   <img width=300px height=200px src="https://the.raulmillan.com/assets/img/img_20140715_180751537.jpg">
