@@ -21,7 +21,7 @@ subtitle: Eventos donde he participado
 ### 2013
 
 * **130624** – [Ejercicio Regional sobre el Manejo de Incidentes Cibernéticos, mesa redonda discutiendo el tema de “Seguridad Cibernética y sus Implicaciones sobre la Economía y el Sector Financiero”, y SEGUNRINFO](https://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=C-249/13). Organización de Estados Americanos. Washington, D.C.
-* **131202** – [Octopus Conference – Cooperation Against Cybercrime](Octopus Conference – Cooperation Against Cybercrime) – Council of Europe – Strasbourg, France 
+* **131202** – [Octopus Conference – Cooperation Against Cybercrime](Octopus Conference – Cooperation Against Cybercrime) – Council of Europe – Strasbourg, France.
 
 <p align="center">
   <img width=200px  src="https://the.raulmillan.com/assets/img/img_4316.jpg">
