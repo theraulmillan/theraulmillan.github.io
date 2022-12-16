@@ -30,4 +30,4 @@ Cuento con las siguientes certificaciones profesionales: [CISSP](https://www.isc
 
 Soy miembro de [Cloud Security Alliance (Capitulo de Panamá)](https://www.linkedin.com/groups/3720347/), colaboro con el [Antiphising Working Group (APWG)](https://www.apwg.org/) y actualmente me desempeño como Presidente de la Junta Directiva de la oranización sin fines de lucro [ISOC Panamá](https://www.isoc.org.pa/) (Capítulo de Panamá de la Sociedad Internet).
 
-Pueden encontrar más información sobre mi experiencia en mi perfil de [LinkedIn](https://www.linkedin.com/in/raulmillan/) o pueden descargar mi hoja de vida en [Español](https://raulmillansa.blob.core.windows.net/archivos/HV_RM_ES_v5.5.pdf) o en [inglés](https://raulmillansa.blob.core.windows.net/archivos/CV_RM_EN_v3.8.pdf).
+Pueden encontrar más información sobre mi experiencia en mi perfil de [LinkedIn](https://www.linkedin.com/in/raulmillan/) o pueden descargar mi hoja de vida en [Español](https://raulmillansa.blob.core.windows.net/archivos/HV_RM_ES_v5.8.pdf) o en [inglés](https://raulmillansa.blob.core.windows.net/archivos/CV_RM_EN_v4.0.pdf).
