@@ -23,7 +23,7 @@ Experto en materia de seguridad cibernética con 20 años de experiencia.  Mis e
 
 Responsable de proyectos estrategicos tales como el desarrollo de la [Estrategia Nacional de Seguridad Cibernetica y Protección de Infraestructuras Criticas](https://www.gacetaoficial.gob.pa/pdfTemp/27289_A/GacetaNo_27289a_20130517.pdf), [acceso de Panamá a Convención de Budapest sobre Delitos Ciberneticos (Consejo de Europa)](http://gacetas.procuraduria-admon.gob.pa/27403-A_2013.pdf), aseguramiento de la Red Nacional Multiservicios del Estado, entre otros.
 
-Algunas de mis asignaciones más relevantes son la gestión y supervisión del Centro Nacional de Respuesta a Incidentes de Panamá ([CSIRT Panama](https://www.cert.pa/)), CISO de la Autoridad del Canal de Panamá, Supervisión de la Unidad de Seguridad de Sistemas de [Cable & Wireless Panamá](https://www.cwpanama.com/), y Arquitecto de Soluciones de Seguridad para el grupo [Millicom-TIGO] (https://www.millicom.com/).
+Algunas de mis asignaciones más relevantes son la gestión y supervisión del Centro Nacional de Respuesta a Incidentes de Panamá ([CSIRT Panama](https://www.cert.pa/)), CISO de la Autoridad del Canal de Panamá, Supervisión de la Unidad de Seguridad de Sistemas de [Cable & Wireless Panamá](https://www.cwpanama.com/), y Arquitecto de Soluciones de Seguridad para el grupo [Millicom-TIGO](https://www.millicom.com/).
 
 Soy egresado de la [Universidad Tecnologica Centroamericana]((http://www.unitec.edu/)) (Honduras) con el titulo de Licenciatura en Sistemas de Información Administrativa.
 
