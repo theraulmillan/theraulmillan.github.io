@@ -42,7 +42,7 @@ social-network-links:
   email: "rmillan@outlook.com"
   facebook: theraulmillan
   github: theraulmillan
-  twitter: raulmillan
+  twitter: theraulmillan
   telegram: theraulmillan
   instagram: theraulmillan
 #  reddit: yourname
@@ -57,7 +57,7 @@ social-network-links:
 #  twitch: yourname
 #  yelp: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
+  mastodon: https://infosec.exchange/@theraulmillan
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
