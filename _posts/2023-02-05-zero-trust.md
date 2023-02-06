@@ -4,7 +4,7 @@ title: Zero Trust en ambientes de nube
 subtitle: 
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
-tags: [Encryption]
+tags: [Cloud Computing]
 comments: true
 ---
 
