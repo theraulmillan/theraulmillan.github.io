@@ -8,6 +8,7 @@ subtitle: Información sobre mi experiencia
 
 * Ex-Presidente - [Internet Society - Capitulo de Panamá](https://www.isoc.org.pa)
 * Voluntario - [Para.Piensa.Conectate](https://www.parapiensaconectate.org.pa/)
+* Miembro - [ISACA - Capitulo de Panamá](https://engage.isaca.org/panamachapter/home)
 * Miembro - [Cibersecurity SIG - ISOC](https://www.linkedin.com/company/cybersecuritysig/?originalSubdomain=ci)
 * Miembro - [Antiphishing Working Group (APWG)](https://apwg.org/)
 * Presidente - [Cloud Security Alliance - Panama Chapter (CSA)](https://cloudsecurityalliance.org/)
