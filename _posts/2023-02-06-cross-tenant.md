@@ -12,7 +12,7 @@ Microsoft ha anunciado recientemente el lanzamiento de una nueva característica
 
 La función entre usuarios admite el uso compartido de archivos y carpetas almacenados en Microsoft OneDrive y SharePoint Online con usuarios externos. Esto permite a las empresas compartir información fácilmente con sus clientes, socios y proveedores, sin tener que preocuparse por las limitaciones de la colaboración tradicional específica de tenant. Los usuarios externos reciben un enlace seguro y encriptado al contenido compartido, al que se puede acceder desde cualquier dispositivo.
 
-![](assets/img/configure-diagram.png)
+![](../assets/img/configure-diagram.png)
 
 Uno de los beneficios clave de la función de sincronización cross-tenant es que elimina la necesidad de soluciones alternativas complejas que antes se requerían para la colaboración externa. Con esta característica, las empresas pueden compartir información rápida y fácilmente con usuarios externos, sin tener que preocuparse por establecer configuraciones de uso compartido complejas o protocolos de seguridad. Esto significa que las empresas pueden concentrarse en sus actividades principales, en lugar de dedicar tiempo a tareas administrativas.
 
