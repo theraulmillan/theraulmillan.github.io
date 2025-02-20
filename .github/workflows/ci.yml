@@ -6,10 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Update RubyGems
+      - name: Install Ruby & Update RubyGems
         run: |
-          sudo gem update --system 3.3.22
-          sudo gem install bundler
+          sudo apt update
+          sudo apt install -y software-properties-common
+          sudo apt-add-repository -y ppa:brightbox/ruby-ng
+          sudo apt update
+          sudo apt install -y ruby3.2 ruby3.2-dev build-essential
+          gem update --system 3.3.22
+          gem install bundler
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
