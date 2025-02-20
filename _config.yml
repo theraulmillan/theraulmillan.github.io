@@ -1,7 +1,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Raúl Millán Blog
+title: Another Security Blog
 
 # Your name to show in the footer
 author: Raúl Millán
@@ -40,10 +40,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "rmillan@outlook.com"
-  facebook: theraulmillan
+#  facebook: theraulmillan
   github: theraulmillan
-  twitter: theraulmillan
-  telegram: theraulmillan
+#  twitter: theraulmillan
+#  telegram: theraulmillan
   instagram: theraulmillan
 #  reddit: yourname
   linkedin: raulmillan
@@ -57,7 +57,7 @@ social-network-links:
 #  twitch: yourname
 #  yelp: yourname
 #  calendly: yourname
-  mastodon: infosec.exchange/@theraulmillan
+#  mastodon: infosec.exchange/@theraulmillan
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
@@ -69,13 +69,13 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
   instagram: true
-  telegram: true
+  telegram: false
   vk: false
-  telegram: true
+  telegram: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
