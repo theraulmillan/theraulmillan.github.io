@@ -6,9 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Update RubyGems
+        run: |
+          sudo gem update --system 3.3.22
+          sudo gem install bundler
       - name: Build the site in the jekyll/builder container
         run: |
-          run: gem update --system 3.3.22
           export JEKYLL_VERSION=3.8
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
