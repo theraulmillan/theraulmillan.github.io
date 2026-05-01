@@ -1,71 +1,97 @@
-# Site settings
-title: Raul Millan
-email: rmillan@outlook.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "cloud, security, cyberseucirty"
-skills: "Cyber Security - Cloud Architect - Cloud Security"
-meta_author: Millan Raul
+# --- Required options --- #
 
-# Google webmaster tools
-google_verify:
+# Name of website
+title: Raúl E. Millán V.
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Your name to show in the footer
+author: Raúl E. Millán V.
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# Short description of your site
+description: >
+  Cybersecurity Solutions Architect | CISSP · CISM · CISA |
+  Microsoft 365 & Azure Security | Zero Trust | GRC | LATAM
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# --- List of links in the navigation bar --- #
+navbar-links:
+  About: "about"
+  Blog: ""
+  LinkedIn: "https://www.linkedin.com/in/raulmillan/"
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+# --- Logo --- #
+avatar: "/assets/img/profile.png"
+round-avatar: true
 
-# Footer settings
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+# --- Footer social media links --- #
+social-network-links:
+  linkedin: raulmillan
+  github: theraulmillan
+  instagram: theraulmillan
+  # twitter: theraulmillan
+  # email: rmillan@outlook.com
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+# --- General options --- #
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+share-links-active:
+  twitter: false
+  facebook: false
+  linkedin: true
 
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+url-pretty: "the.raulmillan.com"
 
-# Build settings
+excerpt_length: 50
+
+keywords: "cybersecurity, cloud security, microsoft 365, azure, zero trust, GRC, CISO, CISSP, CISM, CISA, LATAM, security architect, incident response, Defender, Sentinel, Purview, Entra ID"
+
+# --- Colours --- #
+navbar-col:        "#EAEAEA"
+navbar-text-col:   "#404040"
+navbar-border-col: "#DDDDDD"
+page-col:          "#FFFFFF"
+text-col:          "#404040"
+link-col:          "#008AFF"
+hover-col:         "#0085A1"
+footer-col:        "#EAEAEA"
+footer-text-col:   "#777777"
+footer-link-col:   "#404040"
+
+# --- Misc --- #
+date_format: "%B %-d, %Y"
+timezone: "America/Panama"
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+url: "https://the.raulmillan.com"
 
-#for posts
+kramdown:
+  input: GFM
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      layout: "post"
+      comments: false
+      social-share: true
+      readtime: true
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      show-avatar: true
+
+exclude:
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - freelancer-theme-jekyll.gemspec
+  - Rakefile
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
