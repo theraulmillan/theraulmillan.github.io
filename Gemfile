@@ -1,3 +1,10 @@
 source "https://rubygems.org"
-gemspec
-gem 'rouge'
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-sitemap", "~> 1.3"
+gem "jekyll-gist", "~> 1.5"
+gem "jekyll-feed", "~> 0.17"
+gem "jemoji", "~> 0.13"
+gem "rouge", "~> 4.0"
+gem "webrick"
