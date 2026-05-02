@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aplicación de la Gestión de Amenazas
+title: Application of Threat Management
 subtitle: 
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
@@ -8,64 +8,64 @@ tags: [Cybersecurity,Threat,Risk]
 comments: true
 ---
 
-En días pasado Banesco me invito cómo expositor a su evento interno de seguridad, SecuriCon; creo que es una buena iniciativa, tanto para la concienciación del personal interno del banco, así como para compartir con los pares los temas de actualidad.
+Recently, Banesco invited me as a speaker at their internal security event, SecuriCon. I think it is a good initiative, both for raising awareness among the bank's internal staff and for sharing current topics with peers.
 
 ![securicon](../assets/img/img_2473.jpeg)
 
-Para dicha presentación decidí hacer algo así como un cierre para el tema de gestión de amenazas. En posts pasados, ya vimos los modelos existentes para documentar/clasificar amenazas, y también revise las relaciones de las diferentes actividades dentro del ecosistema de amenazas.
+For this presentation, I decided to make something like a closing for the threat management topic. In previous posts, we already saw the existing models for documenting/classifying threats, and I also reviewed the relationships between different activities within the threat ecosystem.
 
-Creo que un buen cierre para el tema, es ¿cómo aplicamos esto a la vida real? o ¿cuál es el rol del oficial de seguridad frente a la gestión de amenazas?
+I think a good closing for the topic is: how do we apply this to real life? Or what is the role of the security officer in threat management?
 
-Desde que puedo recordar, el rol del oficial de seguridad de la información o encargado de la oficina de seguridad (a.k.a CISO), ha sido uno de conflictos y divisiones; originadas principalmente por los objetivos de dichas unidades, o a veces por la falta de objetivos. En una organización típica, usualmente tenemos por un lado tenemos el objetivo con el que más estamos familiarizados, que es el de aseguramiento; es decir, la aplicación y operación de controles de seguridad en los sistemas de TI (firewall, antivirus, webfilter, etc.). Esto no nos hace las personas favoritas dentro de los departamentos de operaciones de TI, pero es a lo que más estamos acostumbrados.
+Since I can remember, the role of the information security officer or head of the security office (a.k.a. CISO) has been one of conflicts and divisions, primarily caused by the objectives of these units, or sometimes by the lack of objectives. In a typical organization, we usually have, on one side, the objective we are most familiar with, which is assurance. That is, the application and operation of security controls on IT systems (firewall, antivirus, web filter, etc.). This does not make us the favorite people in IT operations departments, but it is what we are most used to.
 
-Más recientemente, el segundo objetivo ha tomado relevancia, dicho objetivo es el de cumplimiento. El hecho de estar alejados de los países de primer mundo, donde la regulación es una de las herramientas más utilizadas por los gobiernos y entidades privadas, para intentar garantizar la operación de las organizaciones, dentro de marco aceptable de riesgo; nos hace un poco insensibles a la necesidad de alinearnos con ciertos estándares o regulaciones.
+More recently, a second objective has gained relevance: compliance. The fact that we are far from first-world countries, where regulation is one of the tools most used by governments and private entities to try to ensure that organizations operate within an acceptable risk framework, makes us somewhat insensitive to the need to align with certain standards or regulations.
 
-Con esto quiero decir, que usualmente, las unidades de seguridad de la información, no de asignan la prioridad correcta al objetivo de cumplimiento, generando estrés entre los encargados de hacer cumplir las normas (auditores/fraude) y las unidades operativas de TI y de seguridad.
+What I mean by this is that usually, information security units do not assign the correct priority to the compliance objective, generating stress between those responsible for enforcing regulations (auditors/fraud) and IT and security operational units.
 
-En ciertos casos, esto puede ocasionar un sobre calentamiento de las relaciones, y la carrera típica por tratar de cumplir a costa de las tareas operativas regulares (aseguramiento), sacrificando el objetivo de aseguramiento.
+In certain cases, this can cause a heating of relationships and the typical race to try to comply at the expense of regular operational tasks (assurance), sacrificing the assurance objective.
 
-Este desbalance entre ambos objetivos (aseguramiento y cumplimiento), genera retrasos en la entrega de proyectos, entrega de proyectos de manera insegura, fricción innecesaria entre las diferentes unidades (desarrollo, operaciones, soporte y seguridad), y en términos generales, un ambiente negativo para ejecutar la función de seguridad de la información.
+This imbalance between both objectives (assurance and compliance) generates delays in project delivery, delivery of projects in an insecure manner, unnecessary friction between different units (development, operations, support, and security), and in general terms, a negative environment for executing the information security function.
 
-Si a esto sumamos el hecho de que la función de seguridad de la información no tiene definido su objetivo de manera clara y formal, desde su inicio, tendríamos que agregar a lo antes señalado, una crisis de identidad de la unidad responsable de la seguridad de la información; situación donde no se tiene claro el rol máximo de dicha unidad.
+If we add to this the fact that the information security function does not have its objective defined clearly and formally from its inception, we would have to add to what has been mentioned a crisis of identity of the unit responsible for information security. This is a situation where the maximum role of that unit is unclear.
 
-Esto provoca el famoso “estamos muy ocupados en el día a día”, o mejor conocido en inglés como el “fire fighting mode”. Siempre de una emergencia a otra emergencia, siempre cansados y siempre con trabajo acumulado.
+This causes the famous "we are too busy day to day," or better known in English as the "fire fighting mode." Always going from one emergency to another, always tired, and always with accumulated work.
 
-En el libro “The Phoenix Project”,  a esta situación se le llama el ““never-ending hamster wheel of pain” donde la unidad de seguridad de la información llena los buzones de la unidad de operaciones de TI con listas interminables de trabajo de remediación “urgente”, periodo tras periodo.
+In the book "The Phoenix Project," this situation is called the "never-ending hamster wheel of pain," where the information security unit floods the IT operations unit's mailboxes with endless lists of "urgent" remediation work period after period.
 
-Describir esta situación es necesario para poder entender la relación entre aseguramiento, cumplimiento y lo que debería ser el trabajo principal de las unidades de seguridad de la información, que no es más que gestión de amenazas.
+Describing this situation is necessary to understand the relationship between assurance, compliance, and what should be the main work of information security units, which is nothing more than threat management.
 
-Si de un lado tenemos las obligaciones del aseguramiento de la información e infraestructura, responsabilidad que usualmente le corresponde a operaciones de TI, y por otro lado tenemos la presión generada por los requisitos de cumplimiento, que usualmente emanan de los departamentos de auditoria interna. Entonces, podemos decir que en medio de estas dos actividades esta la gestión de amenazas como rol primordial de las unidades de seguridad de la información.
+If on one side we have the obligations of assurance of information and infrastructure, a responsibility that usually corresponds to IT operations, and on the other side we have the pressure generated by compliance requirements, which usually come from internal audit departments, then we can say that in the middle of these two activities is threat management as the primary role of information security units.
 
-Las actividades que se realizan alrededor de la gestión de amenazas, conforman el ecosistema de amenazas; y tienen como resultado final, indicadores claros de riesgo, que pueden ser asociados de manera directa, a acciones que se han tomado o tareas que se han dejado de ejecutar, relacionadas con decisiones de negocio o técnicas; sin importar la consecuencia, la relación es muy fuerte y muy clara de establecer, usando información construida de las múltiples fuentes de datos a nuestra disposición.
+The activities that take place around threat management make up the threat ecosystem. They result in clear risk indicators that can be directly associated with actions that have been taken or tasks that have not been executed, related to business or technical decisions. Regardless of the consequence, the relationship is very strong and very easy to establish using information constructed from the multiple data sources at our disposal.
 
-De este hecho, nace la idea de utilizar el concepto de gestión de amenazas para satisface los objetivos de aseguramiento y cumplimiento de manera pro-activa, demostrando con información verificable, que se están aplicando las medidas correctivas y preventivas, en los lugares o temas, que realmente son relevantes para la organización.
+From this fact comes the idea of using the concept of threat management to satisfy the objectives of assurance and compliance proactively, demonstrating with verifiable information that the correct corrective and preventive measures are being applied in the places or topics that really matter to the organization.
 
-El resultado de llevar a cabo la función de gestión de amenazas, puede ser desplegado de forma gráfica; por ejemplo, el panorama de amenazas, publicado por ENISA para el año 2017, se ve así.
+The result of carrying out the threat management function can be displayed graphically. For example, the threat landscape published by ENISA for 2017 looks like this:
 
 ![](../assets/img/picture11.png)
 
 ([https://www.enisa.europa.eu/publications/enisa-threat-landscape-report-2017](https://www.enisa.europa.eu/publications/enisa-threat-landscape-report-2017))
 
-El panorama de amenazas forma parte del [ecosistemas de amenazas](https://the.raulmillan.com/2018-07-26-ecosistema/), tal como lo describí en artículos anteriores. Este resumen básicamente describe el panorama de amenazas que ENISA ha descrito para el territorio Europeo. Este mismo tipo de tableros de mando, debe existir para cada organización; donde se pueda visualizar los problemas más urgentes para atender, dandole forma a los planes directores de seguridad de la información. Estos planes despejan dudas sobre los requerimientos de presupuestos (capital y operaciones), así como los requerimientos de personal para la operación de la función de seguridad.
+The threat landscape is part of the [threat ecosystem](https://the.raulmillan.com/2018-07-26-ecosistema/) as I described in previous articles. This summary basically describes the threat landscape that ENISA has described for European territory. This same type of dashboard should exist for each organization, where you can visualize the most urgent problems to address, shaping information security master plans. These plans clear up questions about budget requirements (capital and operations) as well as staffing requirements for the operation of the security function.
 
-Por supuesto que existen modelos formales de gestión de riesgo, tales como Risk IT [http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx](http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx), o el Information Risk Assesment Methodology [https://www.securityforum.org/tool/information-risk-assessment-methodology-iram2/](https://www.securityforum.org/tool/information-risk-assessment-methodology-iram2/) del Information Secuirty Forum, sin embargo estos modelos o marcos de trabajo toca los temas de gestión de amenazas a un nivel muy alto, con un enfoque casi exclusivo en el tema de riesgo.
+Of course, there are formal risk management models, such as Risk IT [http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx](http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx), or the Information Risk Assessment Methodology [https://www.securityforum.org/tool/information-risk-assessment-methodology-iram2/](https://www.securityforum.org/tool/information-risk-assessment-methodology-iram2/) from the Information Security Forum. However, these models or frameworks touch on threat management topics at a very high level, with an almost exclusive focus on risk.
 
-Aunque definir y gestionar el riesgo es el objetivo final de cualquier oficina de seguridad de la información, llegar a ese nivel de conversación con la directiva o ejecutivos, requiere un nivel de madurez a nivel organizacional, que muy probablemente no tengamos en nuestra región del mundo.
+Although defining and managing risk is the ultimate objective of any information security office, reaching that level of conversation with the board or executives requires a level of organizational maturity that we very likely do not have in our region of the world.
 
-Ya de por si, hablar de gestión de amenazas suena a un ejercicio académico, ahora hablar de riesgo sonaría como ciencia ficción para muchas organizaciones. Esta realidad puede que no este presente en el sector financiero, pero fuera del ámbito financiero es muy común la percepción de que si no estamos administrando una consola, o implementando la siguiente solución mágica para detener todos los ataques cibernéticos que puedan existir, no estamos haciendo nuestros trabajos.
+Already, talking about threat management sounds like an academic exercise. Now talking about risk would sound like science fiction to many organizations. This reality may not be present in the financial sector, but outside the financial sector, it is very common for there to be a perception that if we are not managing a console or implementing the next magic solution to stop all possible cyberattacks, we are not doing our jobs.
 
-El hecho de que los vendedores de soluciones se enfoquen, de manera casi exclusiva, en soluciones puntuales (cajas mágicas), no ayuda a que nuestros superiores entiendan el problema en la dimensión correcta.
+The fact that solution vendors focus, in an almost exclusive manner, on point solutions (magic boxes) does not help our superiors understand the problem in the correct dimension.
 
-Muchas veces caemos en la trampa de vende miedo, incertidumbre y duda (FUD) a lo interno de nuestras organizaciones, debido a que esto es lo que nuestros proveedores nos transmiten.
+Many times we fall into the trap of selling fear, uncertainty, and doubt (FUD) within our organizations, because this is what our vendors transmit to us.
 
-Los programas de seguridad modernos deben ser orientados al negocio, basados en riesgo, orientados a la información, influenciados por la identidad, y automatizados.
+Modern security programs should be business-oriented, risk-based, information-focused, identity-influenced, and automated.
 
-Lo que llamamos programas de seguridad de legado (legacy), usualmente están orientados a TI y cumplimiento,  basados en amenazas, influenciados por los dispositivos y orientados a la infraestructura.
+What we call legacy (legacy) security programs are usually IT and compliance-oriented, threat-based, device-influenced, and infrastructure-oriented.
 
-Los programas deben continuar enfocados en las amenazas y cumplimiento, pero el enfoque en riesgo y la información conforman otro nivel de entendimiento, que fuerza la pregunta ¿qué representa una amenaza para mi información?
+Programs should continue to be focused on threats and compliance, but the focus on risk and information form another level of understanding that forces the question: what represents a threat to my information?
 
-La búsqueda de una respuesta a esta pregunta, usualmente representa el buscar una aguja en un pajar, lo cual es muy difícil; la mayoría de los equipos de seguridad no están lo suficientemente maduros para implementar programas de riesgo y protección de datos.
+The search for an answer to this question usually represents looking for a needle in a haystack, which is very difficult. Most security teams are not mature enough to implement risk and data protection programs.
 
-Si observan dentro de los programas legacy, hay enfoque a las amenazas, sin embargo, creo que este enfoque puede ser utilizado como un primer paso para generar la información de soporte requerida para determinar el riesgo; por ende, a pesar de ser un componente del pasado, es indispensable para desarrollar los programas de seguridad modernos.
+If you look at legacy programs, there is a focus on threats. However, I believe that this focus can be used as a first step to generate the supporting information required to determine risk. Therefore, despite being a component of the past, it is indispensable for developing modern security programs.
 
-Con esto cierro el ciclo de artículos acerca del tema de amenazas, aunque estoy seguro que estas ideas pueden generar algunas discusiones interesantes; cualquier cosa, me pueden dejar sus comentarios abajo, o hacer llegar sus mensajes por cualquiera de los medios descritos en la página de contacto
+With this, I close the cycle of articles on the topic of threats, although I am sure these ideas can generate some interesting discussions. As always, you can leave your comments below or send me messages through any of the means described on the contact page.

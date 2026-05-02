@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sin muchas novedades, pero con algo de información
+title: Not much news, but with some information
 subtitle: 
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
@@ -8,19 +8,19 @@ tags: [Infosec]
 comments: true
 ---
 
-Bueno, a pesar de que no hay muchas noticias locales en cuanto al tema de seguridad informática, si puedo comentar acerca de algunas tendencias que he visto, aqui van:
+Well, although there is not much local news regarding information security, I can comment on some trends I have seen. Here they are:
 
-1. Cada vez más gente pide trabajos de forensia
-2. Cada vez más gente pide trabajos de investigaciones internas
-3. A pesar de la crisis las empresas parecen estar cada vez más preocupadas por el tema, ya se por iniciativa propia o por cumplimiento con regulaciones autoimpuestas
+1. More and more people are requesting forensics work
+2. More and more people are requesting internal investigation work
+3. Despite the crisis, companies seem to be increasingly concerned about the issue, either on their own initiative or by compliance with self-imposed regulations
 
 
-A parte de eso, me he dado cuenta en las ultimas semanas que todo el tema de twitter en realidad es algo grande, tal vez para nosotros en Panamá no, ya que la función principal de twitter es el envio de mensajes de texto (SMS), sin embargo, esta parte del servicio no esta habilitada para nuestro pais, por lo que le quita mobilidad al asunto, pero aún asi es una gran fuente de información en tiempo real que tiene un impacto global.
+Apart from that, I have noticed in recent weeks that the whole Twitter thing is really something big. Perhaps for us in Panama it is not so much, since the main function of Twitter is sending text messages (SMS). However, this part of the service is not enabled for our country, which reduces its mobility. But it is still a great source of real-time information that has a global impact.
 
-Digo esto porque en el ultimo mes y medio he estado siguiendo temas realmente importantes y enterandome de cosas de forma casi instantanea a través de twitter, como por ejemplo la crisis en Iran (http://twitter.com/StopAhmadi y http://twitter.com/mousavi1388), más recientemente estoy siguiendo la crisis en Honduras donde esta mi alma matter UNITEC (http://twitter.com/#search?q=%23CrisisHN), además de otros temas relacionados a la seguridad de la información.
+I say this because in the last month and a half I have been following really important issues and finding out about things almost instantly through Twitter, such as the crisis in Iran (http://twitter.com/StopAhmadi and http://twitter.com/mousavi1388). More recently, I am following the crisis in Honduras where my alma mater UNITEC is located (http://twitter.com/#search?q=%23CrisisHN), in addition to other topics related to information security.
 
-Para darles un ejemplo, me entere que el servicio de viajes de Bing.com (antes Windows Live Search), estuvo abajo por más de un día debido a un fuego en un centro de datos en Seattle y aunque ustedes diran, y esto que importa, resulta que uno de los proveedores de autorizacioens de pagos más importantes (Authorize.net) esta alojado en el mismo datacenter y bueno, adivinen que usan para mantener al tanto a la gente de lo que pasa? twitter (http://twitter.com/authorizenet), este tipo de información no esta disponible para el lector casual de sitios de noticias, por lo menos no a este nivel de detalle.
+To give you an example, I found out that the Bing.com travel service (formerly Windows Live Search) was down for more than a day due to a fire in a data center in Seattle. Although you might say, what does that matter to me, it turns out that one of the most important payment authorization providers (Authorize.net) is hosted in the same data center. And guess what they use to keep people informed about what is happening? Twitter (http://twitter.com/authorizenet). This type of information is not available to the casual news site reader, at least not at this level of detail.
 
-Trato de seguir temas importantes en twitter, si quieren ver lo que he podido obtener en Internet, pueden seguirme en Twitter (http://twitter.com/raulmillan) y ver los temas que estoy siguiendo, no se aburriran de leer.
+I try to follow important topics on Twitter. If you want to see what I have been able to gather from the Internet, you can follow me on Twitter (http://twitter.com/raulmillan) and see the topics I am following. You will not be bored reading.
 
-Para aquellos que tienen Blackberrys y quieren tener Twitter "on the go" a pesar de no tener mensajeria SMS pueden hacerlo usando esta herramienta (http://www.orangatame.com/products/twitterberry/).
+For those who have Blackberrys and want to have Twitter "on the go" even without SMS messaging, you can do it using this tool (http://www.orangatame.com/products/twitterberry/).

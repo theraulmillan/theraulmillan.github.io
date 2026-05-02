@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecosistema de Amenazas (connecting the dots)
+title: Threat Ecosystem (Connecting the Dots)
 subtitle: 
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
@@ -8,50 +8,50 @@ tags: [Cybersecurity,Threat,Risk]
 comments: true
 ---
 
-Creo que me adelante un poco con el articulo anterior sobre modelaje de amenazas; al revisitar el tema, me di cuenta de que hay muchos otros temas asociados con el modelo de amenazas, así como muchos concpetos comerciales que escuchamos todo el tiempo.
+I think I got ahead of myself a bit with the previous article on threat modeling. When I revisited the topic, I realized that there are many other topics associated with the threat model, as well as many commercial concepts that we hear all the time.
 
-Por esta razón creo que es mejor si tratamos el tema desde un punto de vista de más alto nivel, para intentar relacionar los temas (conectar los puntos) entre los diferentes aspectos de riesgo, que se deben tener en consideración al momento de intentar hacer modelaje de amenazas.
+For this reason, I think it is better if we approach the topic from a higher-level point of view to try to relate the topics (connect the dots) between the different aspects of risk that should be considered when attempting to do threat modeling.
 
-Como aclaración, busque y busque durantes varios días algún modelo formal pre-existente, y no encontre nada que relacionara todo los temas, así que este contenido es 100% mi opinión sobre un tema complejo; estoy seguro que debe existir algún modelo formal, pero por el momento esto es lo que se me ha ocurrido.
+As a disclaimer, I searched for several days for some pre-existing formal model and could not find anything that related all the topics. So this content is 100% my opinion on a complex topic. I am sure there must be some formal model out there, but for now, this is what I have come up with.
 
 ![ecosistema](../assests/img/../../assets/img/threat-ecosystem.jpg)
 
-## Definiciones:
+## Definitions:
 
-**Threat Actors**: Son aquellos elementos que influencian de alguna manera el panorama de amenaza, estos pueden ser empleados internos disgustados (amenaza interna), naciones interesadas,  crimen organizado, hacktivistas, atacantes externos, entre otros.
+**Threat Actors**: These are elements that influence the threat landscape in some way. These can be disgruntled internal employees (internal threat), interested nations, organized crime, hacktivists, external attackers, among others.
 
-**Threat Landscape**: Es una colección de amenazas, usualmente contiene las amenazas identificadas como activas, tendencias observadas y los actores involucrados. Puede ser una simple lista de las amenazas más prominentes (top 10) prioridades de acuerdo a la frecuencia de aparición y no tanto por el impacto causado.
+**Threat Landscape**: It is a collection of threats, usually contains threats identified as active, observed trends, and the actors involved. It can be a simple list of the most prominent threats (top 10) prioritized according to frequency of appearance rather than impact caused.
 
-**Threat Intelligence**: Es el resultado de un análisis basado en la identificación, colección y enriquecimiento de datos e información relevantes. Usualmente cae dentro de dos categorías 1) Inteligencia operacional (producida por máquinas y usualmente relacionada con el termino de Threat intelligence) o 2) Inteligencia estratégica (producido por analistas humanos y usualmente relacionada con el termino Threat analytics).
+**Threat Intelligence**: It is the result of analysis based on the identification, collection, and enrichment of relevant data and information. Usually falls into two categories: 1) Operational Intelligence (produced by machines and usually related to the term Threat Intelligence) or 2) Strategic Intelligence (produced by human analysts and usually related to the term Threat Analytics).
 
-**Threat Analytics**: Ver inteligencia estratégica arriba. Existe una tendencia marcada a dejar la tarea de análisis en manos de las nuevas herramientas disponibles a través del uso de Inteligencia Artificial, pero el enfoque tradicional es usar analistas de seguridad.
+**Threat Analytics**: See Strategic Intelligence above. There is a marked trend to leave the analysis task to the new tools available through the use of Artificial Intelligence. However, the traditional approach is to use security analysts.
 
-**Threat Hunting**: Es el acto de interceptar, rastrear y eliminar, de forma agresiva, a los adversarios en las fases más tempranas del cyber kill chain, con el objetivo de interrumpir las operaciones de los atacantes. Esto es una evolución del rol pasivo de los equipos de respuesta a incidentes, hacia un modelo más pro activo, y esta basado en el supuesto que en cuanto más temprano se detecten las actividades de los atacantes, dentro de la cadena de ataque, más bajo es el impacto de dichas actividades en la organización.  Algunos beneficios son: 1) Se gana visibilidad y se descubren debilidades en su organización, 2) detección temprana de amenazas, 3) control de daños, 4) mejora de las contramedidas automaticas.
+**Threat Hunting**: It is the act of intercepting, tracking, and aggressively eliminating adversaries in the earliest phases of the cyber kill chain with the goal of disrupting attacker operations. This is an evolution from the passive role of incident response teams toward a more proactive model and is based on the assumption that the earlier attacker activities are detected in the attack chain, the lower the impact on the organization. Some benefits are: 1) Gain visibility and discover weaknesses in your organization, 2) Early detection of threats, 3) Damage control, 4) Improvement of automated countermeasures.
 
-**Key Risk Indicators (KRIs)**: Son métricas capaces de mostrar si una organización es sujeto o tiene alta probabilidad de ser sujeto a un riesgo que excede el apetito de riesgo de la organización.
+**Key Risk Indicators (KRIs)**: These are metrics capable of showing whether an organization is subject to or has a high probability of being subject to a risk that exceeds the organization's risk appetite.
 
-**Vulnerability**: Es una debilidad que puede ser explotada por un threat actor, para realizar acciones no autorizadas dentro de un sistema de computo. Para explotar la vulnerabilidad una atacante debe tener por lo menos una herramienta o técnica aplicable a la debilidad identificada. En este contexto, una vulnerabilidad también es conocida como vector/superficie de ataque.
+**Vulnerability**: It is a weakness that can be exploited by a threat actor to perform unauthorized actions within a computer system. To exploit the vulnerability, an attacker must have at least one tool or technique applicable to the identified weakness. In this context, a vulnerability is also known as an attack vector/surface.
 
-**Threat Modeling**: Es un proceso en el cual las amenazas potenciales pueden ser identificadas, enumeradas, y asignadas una prioridad, desde un punto de vista hipotético. El propósito del modelaje de amenazas es proveer a los defensores con un análisis sistemático del perfil de los probables atacantes, identificar los vectores de ataque más probables, y los activos más deseados por los atacantes. Responde la pregunta “¿Donde están los activos más valiosos?”, “¿Donde somos más vulnerables a un ataque?”, “¿Cuales son las amenazas más relevantes?”, “¿Existe un vector de ataque que pase por desapercibido?”
+**Threat Modeling**: It is a process in which potential threats can be identified, enumerated, and assigned a priority from a hypothetical point of view. The purpose of threat modeling is to provide defenders with a systematic analysis of the profile of probable attackers, identify the most probable attack vectors, and the assets most desired by attackers. It answers the questions: "Where are the most valuable assets?", "Where are we most vulnerable to attack?", "What are the most relevant threats?", "Is there an attack vector that goes unnoticed?"
 
-## Conectando los puntos
+## Connecting the Dots
 
-Después de definir los términos, solo nos queda ver como se relacionan entre ellos; esto es lo que creo que debe suceder en este sentido.
+After defining the terms, all that remains is to see how they relate to each other. This is what I believe should happen in this regard.
 
-Tomando en cuenta que este ecosistema sirve dos objetivos, 1) Proveer a los defensores de la información necesaria para saber donde aplicar los esfuerzos necesarios para minimizar los daños (threat modeling) y 2) proveer a la organización un mecanismo formal para la cuantificación y evaluación de riesgo cibernético (KRI).
+Taking into account that this ecosystem serves two objectives: 1) Provide defenders with the information they need to know where to apply the necessary efforts to minimize damage (threat modeling) and 2) Provide the organization with a formal mechanism for quantifying and evaluating cybersecurity risk (KRI).
 
-En este contexto podemos empezar por decir que las vulnerabilidades, los actores, la información recolectada de forma automática y los analistas de seguridad, contribuyen a la definición del panorama de amenazas (threat landscape).
+In this context, we can start by saying that vulnerabilities, actors, information collected automatically, and security analysts all contribute to the definition of the threat landscape.
 
-Luego, este panorama, más la información de los analistas, más lo que generan los equipos de respuesta a incidente o cazadores de amenazas, y las vulnerabilidades, es lo que se va a poder utilizar para modelar los riesgos cibernéticos (se puede usar STRIDE en este punto).
+Then, this landscape, plus information from analysts, plus what incident response teams or threat hunters generate, and vulnerabilities, is what will be used to model cybersecurity risks (STRIDE can be used at this point).
 
-Una vez tengamos claro el modelo de amenazas, entonces podemos crear los KRIs, mismos que nos sirve para traducir el riesgo tecnológico a términos más potables para los tomadores de decisiones de negocio.
+Once we have the threat model clear, then we can create the KRIs, which serve us to translate technological risk into more palatable terms for business decision-makers.
 
-Cualquier modelo de amenazas que le falte alguno de estos componentes, estará incompleto y no podrá producir indicadores de riesgo confiable, pero más importante, podria producir un panorama de amenazas incompleto, que deje por fuera vectores de ataque importantes.
+Any threat model that lacks one of these components will be incomplete and will not be able to produce reliable risk indicators. More importantly, it could produce an incomplete threat landscape that leaves out important attack vectors.
 
-Como se podrá ver, no se trata de una sola solución de hardware o software, se trata de un proceso de negocios, embebido dentro del area o función de seguridad de la información. Es uno más de los múltiples procesos de negocio relacionados con la gestión de tecnología, mismos que no deben ser ignorados o desechados como un ejercicio académico, ya que la ausencia de estos procesos formales, son una formula para el desastre cibernético.
+As you can see, it is not about a single hardware or software solution. It is about a business process embedded within the information security function or area. It is one of the multiple business processes related to technology management that should not be ignored or discarded as an academic exercise. The absence of these formal processes is a formula for cybersecurity disaster.
 
-Estoy al tanto que existen multiples modelos o formas de ver este tema, por ejemplo, me mandaron un documento de SANS ([https://www.sans.org/security-resources/posters/cyber-threat-intelligence-consumption/130/download](https://www.sans.org/security-resources/posters/cyber-threat-intelligence-consumption/130/download)) que habla de este tema, pero desde la perspectiva académica y con los términos usualmente relacionados con SANS, pero la realidad es que los términos que comúnmente se escuchan por parte de los proveedores y multiples fuentes de información, como Gartner, no siempre son los mismos utilizados por SANS, lo que hace algo difícil la correlación entre lo que se explica en los cursos y lo que ocurre en el mundo real.
+I am aware that there are multiple models or ways to view this topic. For example, someone sent me a SANS document ([https://www.sans.org/security-resources/posters/cyber-threat-intelligence-consumption/130/download](https://www.sans.org/security-resources/posters/cyber-threat-intelligence-consumption/130/download)) that talks about this topic from an academic perspective and with terms usually related to SANS. However, the reality is that the terms commonly heard from vendors and multiple sources of information, such as Gartner, are not always the same as those used by SANS, making it somewhat difficult to correlate what is explained in courses with what happens in the real world.
 
-Como siempre, les recuerdo que esta es mi percepción sobre el tema, y que espero haber acertado en la mayoría de los temas, pero no pretendo tener el conocimiento absoluto del mismo, por lo que les pido que me envíen sus comentarios.
+As always, I remind you that this is my perception of the topic and I hope I got it right in most areas. However, I do not claim to have absolute knowledge of it, so I ask that you send me your comments.
 
-Voy a estar haciendo otros posts relacionados con cada uno de los términos utilizados en este articulo, para tratar de ponerle un ejemplo del mundo real a cada uno y así poder realizar una mejor conexión entre los temas.
+I will be making other posts related to each of the terms used in this article to try to give a real-world example to each one and thus be able to make a better connection between the topics.

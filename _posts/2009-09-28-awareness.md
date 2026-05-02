@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Octubre mes de Cyber Security Awareness
+title: October is Cyber Security Awareness Month
 subtitle: 
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
@@ -8,9 +8,9 @@ tags: [Awareness]
 comments: true
 ---
 
-Octubre es el mes de Cyber Security Awareness, o en otras palabras mes de la concientización sobre la seguridad de la información. Durante los últimos 2 años el Internet Storm Center de SANS (ISC) ha cubierto diferentes temas relacionados con este mes.  Este año se examinaran 31 diferentes puertos/servicios/protocolos/aplicaciones y se discutiran algunos de los temas de mayor preocupación con respecto a la seguridad de la información.
+October is Cyber Security Awareness Month, or in other words, the month of awareness about information security. Over the past 2 years, SANS Internet Storm Center (ISC) has covered different topics related to this month. This year, 31 different ports/services/protocols/applications will be examined and some of the topics of greatest concern regarding information security will be discussed.
 
-Algunos temas de la lista son:
+Some topics on the list are:
 
 * telnet (port 23)
 * SMB over tcp (port 445)
@@ -18,4 +18,4 @@ Algunos temas de la lista son:
 * Microsoft Terminal Services (port 3389)
 * dns (port 53)
 
-Pueden ver el articulo completo en el siguiente URL:  http://isc.sans.org/diary.html?storyid=7198
+You can see the complete article at the following URL: http://isc.sans.org/diary.html?storyid=7198
