@@ -13,12 +13,16 @@ description: >
 
 # --- List of links in the navigation bar --- #
 navbar-links:
-  About: "about"
+  About:
+    - About: "about"
+    - Bio: "bio"
+    - Speaking: "conferences"
+    - Events: "events"
   Blog: "blog"
   LinkedIn: "https://www.linkedin.com/in/raulmillan/"
 
 # --- Logo --- #
-avatar: "/assets/img/IMG_6063.jpeg"
+avatar: "/assets/img/profile.jpeg"
 round-avatar: true
 
 # --- Footer social media links --- #
@@ -27,7 +31,7 @@ social-network-links:
   github: theraulmillan
   instagram: theraulmillan
   # twitter: theraulmillan
-  # email: rmillan@outlook.com
+  email: info@safitconsulting.com
 
 # --- General options --- #
 

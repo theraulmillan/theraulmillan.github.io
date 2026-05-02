@@ -1,26 +1,26 @@
 ---
 layout: page
-title: Eventos
-subtitle: Eventos donde he participado
+title: Events
+subtitle: Industry events and training
 ---
 
 ### 2011
 
-* **110912** – Fundamentals of Incident Handling. Organización de Estados Americanos – Washington, DC.
-* **111017** – McAfee Focus 11 – Las Vegas, NV, EEUU.
-* **111124** – Seminario – Taller Nacional sobre la Prevención e investigación ante Incidentes de Seguridad Cibernética – Organización de Estados Americanos – Panamá, Ciudad de Panamá
+* **110912** – Fundamentals of Incident Handling. Organization of American States – Washington, DC.
+* **111017** – McAfee Focus 11 – Las Vegas, NV, USA.
+* **111124** – Seminar – National Workshop on Prevention and Investigation of Cybersecurity Incidents – Organization of American States – Panama, Panama City
 
 ### 2012
 
-* **120313** – Microsoft Worldwide Public Safety Symposium – Microsoft Conference Center – Redmond, WA, EEUU.
-* **120409** – [Curso Especializado Sobre Manejo de Incidentes de Seguridad Informática](https://cert.pa/2012/04/panama-sede-internacional-de-curso-especializado-sobre-manejo-de-incidentes-de-seguridad-informatica/). Organización de Estados Américanos. Panamá.
-* **120710** – [Taller Regional de Buenas Prácticas en Seguridad y Crimen Cibernético](http://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=AVI-134/12) – Organización de Estados Americanos – Montevideo, Uruguay.
-* **120802** – Desarrollo de Estrategia Nacional de Ciberseguridad – Organización de Estados Americanos – Panamá, Ciudad de Panamá.
-* **120905** – Roundtable Discussion for Cyber Security Policymakers – Organización de Estados Americanos – Ottawa, Canada.
+* **120313** – Microsoft Worldwide Public Safety Symposium – Microsoft Conference Center – Redmond, WA, USA.
+* **120409** – [Specialized Course on Cybersecurity Incident Management](https://cert.pa/2012/04/panama-sede-internacional-de-curso-especializado-sobre-manejo-de-incidentes-de-seguridad-informatica/). Organization of American States. Panama.
+* **120710** – [Regional Workshop on Best Practices in Security and Cybercrime](http://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=AVI-134/12) – Organization of American States – Montevideo, Uruguay.
+* **120802** – Development of National Cybersecurity Strategy – Organization of American States – Panama, Panama City.
+* **120905** – Roundtable Discussion for Cyber Security Policymakers – Organization of American States – Ottawa, Canada.
 
 ### 2013
 
-* **130624** – [Ejercicio Regional sobre el Manejo de Incidentes Cibernéticos, mesa redonda discutiendo el tema de “Seguridad Cibernética y sus Implicaciones sobre la Economía y el Sector Financiero”, y SEGUNRINFO](https://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=C-249/13). Organización de Estados Americanos. Washington, D.C.
+* **130624** – [Regional Cybercrime Incident Management Exercise, Round Table on “Cybersecurity and Its Implications for the Economy and Financial Sector”, and SEGUNRINFO](https://www.oas.org/es/centro_noticias/comunicado_prensa.asp?sCodigo=C-249/13). Organization of American States. Washington, D.C.
 * **131202** – [Octopus Conference – Cooperation Against Cybercrime](Octopus Conference – Cooperation Against Cybercrime) – Council of Europe – Strasbourg, France.
 
 <p align="center">
@@ -30,8 +30,8 @@ subtitle: Eventos donde he participado
 
 ### 2014
 
-* **140507** –  Checkpoint Experience (CPX2014) –  Checkpoint Software Technologies – Washington, D.C, EEUU.
-* **140609** – [ICS Training in Idaho Falls](https://us-cert.cisa.gov/ics/Training-Available-Through-ICS-CERT#workshop) – Organización de Estados Americanos. Idaho Falls, Idaho, EEUU. 
+* **140507** –  Checkpoint Experience (CPX2014) –  Checkpoint Software Technologies – Washington, D.C, USA.
+* **140609** – [ICS Training in Idaho Falls](https://us-cert.cisa.gov/ics/Training-Available-Through-ICS-CERT#workshop) – Organization of American States. Idaho Falls, Idaho, USA. 
 
 <p align="center">
   <img width=300px height=200px src="https://the.raulmillan.com/assets/img/img_20140715_180751537.jpg">
@@ -48,7 +48,7 @@ subtitle: Eventos donde he participado
 
 ### 2017
 
-* **170213** – [RSA Conference](https://www.rsaconference.com/events/us17) – San Francisco, California, EEUU.
+* **170213** – [RSA Conference](https://www.rsaconference.com/events/us17) – San Francisco, California, USA.
 
 <p align="center">
   <img width=300px src="https://the.raulmillan.com/assets/img/img_39451.jpg">
@@ -63,17 +63,17 @@ subtitle: Eventos donde he participado
 
 ### 2018
 
-* **180309** – Conferencia Digital Crimes Consortium – Microsoft – Ciudad de Panamá. 
+* **180309** – Digital Crimes Consortium Conference – Microsoft – Panama City. 
 
 <p align="center">
   <img src="https://the.raulmillan.com/assets/img/ci-oas-microsoft.png">
 </p>
 
-* **180430** – [LACNIC 29](https://www.lacnic.net/2386/44/evento/welcome-to-lacnic29) – LACNIC – Ciudad de Panamá. 
+* **180430** – [LACNIC 29](https://www.lacnic.net/2386/44/evento/welcome-to-lacnic29) – LACNIC – Panama City. 
 
 ### 2019
 
-* **190221** – [Cybertech Latin America](https://panama.cybertechconference.com/) – Cybertech Israel – Ciudad de Panamá.
+* **190221** – [Cybertech Latin America](https://panama.cybertechconference.com/) – Cybertech Israel – Panama City.
 
 <p align="center">
   <img width=200px src="https://the.raulmillan.com/assets/img/img_4003.jpeg">
@@ -82,4 +82,4 @@ subtitle: Eventos donde he participado
 
 ### 2020
 
-* **200928** [Simposio de Ciberseguridad de la OEA](https://mcusercontent.com/353ff0663258ae5a775d460db/files/606e00a7-270a-47fd-8881-4c322ea3fdc9/AGENDA_SIMPOSIO_2020.pdf). Organización de Estados Americanos.
+* **200928** [Organization of American States (OAS) Cybersecurity Symposium](https://mcusercontent.com/353ff0663258ae5a775d460db/files/606e00a7-270a-47fd-8881-4c322ea3fdc9/AGENDA_SIMPOSIO_2020.pdf). Organization of American States.
