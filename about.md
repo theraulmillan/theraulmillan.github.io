@@ -8,7 +8,7 @@ I'm Raúl E. Millán V., a Cybersecurity Solutions Architect based in Panama wit
 
 My work focuses on Microsoft 365 and Azure security architecture, Zero Trust design and implementation, cloud security posture management, incident response programs, and GRC frameworks including ISO 27001, NIST CSF, and CIS Controls.
 
-I'm the founder of [SAFIT Consulting](https://safitconsulting.com), where I work with organizations across Latin America and beyond on security architecture, M365 security assessments, vCISO advisory, and third-party risk management.
+I'm the founder of SAFIT Consulting, where I work with organizations across Latin America and beyond on security architecture, M365 security assessments, vCISO advisory, and third-party risk management.
 
 Before SAFIT, I served as CISO at the Panama Canal Authority, Security Architect at Millicom-TIGO, and founded Panama's National CSIRT while co-authoring Panama's National Cybersecurity Strategy.
 

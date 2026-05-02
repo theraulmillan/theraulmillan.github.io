@@ -1,121 +1,127 @@
-# Website Revival Project — the.raulmillan.com
+# Website Project — the.raulmillan.com
 
-**Site URL:** https://the.raulmillan.com  
-**Theme:** Freelancer Jekyll Theme (jeromelachaud/freelancer-theme)  
-**Status:** 🔴 Broken / Not deploying  
-**Last reviewed:** 2026-05-01
-
----
-
-## Diagnosis Summary
-
-The site has two layers of problems: a broken deployment pipeline, and content that was never actually personalized beyond the profile image and name.
+**URL:** https://the.raulmillan.com  
+**GitHub repo:** https://github.com/theraulmillan/theraulmillan.github.io  
+**Theme:** Beautiful Jekyll  
+**Local folder:** ~/Developer/cowork/personal/website  
+**Last updated:** 2026-05-01
 
 ---
 
-## 🔴 Critical — Deployment Blockers
+## Current Status: ✅ Live
 
-### 1. Wrong Git Remote
-The local repo's `origin` points to the **original theme repo** (`jeromelachaud/freelancer-theme`), not your own GitHub repo. Any `git push` goes to the wrong place — your actual GitHub Pages repo for `the.raulmillan.com` is disconnected from this local copy.
-
-**Fix:** Find your actual GitHub Pages repo and update the remote:
-```bash
-git remote set-url origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-```
-
-### 2. No CNAME File
-GitHub Pages needs a `CNAME` file in the repo root to serve a custom domain. Without it, `the.raulmillan.com` won't resolve to your GitHub Pages site.
-
-**Fix:** Create a file named `CNAME` in the repo root containing exactly:
-```
-the.raulmillan.com
-```
-
-### 3. No GitHub Actions Deployment Workflow
-There is no `.github/workflows/` directory. Modern GitHub Pages deployments (especially with custom gems like `rouge`) require a build+deploy Action. Without it, GitHub Pages may fail silently on non-standard Jekyll configs.
-
-**Fix:** Add a standard Jekyll GitHub Actions workflow (see Phase 1 tasks below).
-
-### 4. Branch Divergence
-Your local `master` is 1 commit ahead and the remote is 7 commits ahead — the branches have diverged. This needs to be resolved before any push will work cleanly.
+The site is fully deployed and running on GitHub Pages with a custom domain, automatic HTTPS, and a GitHub Actions build pipeline that triggers on every push to `master`.
 
 ---
 
-## 🟡 Content — Nothing Was Ever Personalized
+## What Was Done
 
-Despite the profile image and name being set, nearly all site content is still the default Freelancer theme boilerplate:
+### Infrastructure
+- Fixed git remote — was pointing to the original Freelancer theme repo (`jeromelachaud/freelancer-theme`), now correctly points to `theraulmillan/theraulmillan.github.io`
+- Created `CNAME` file for custom domain `the.raulmillan.com`
+- Added `.github/workflows/jekyll.yml` — GitHub Actions build and deploy pipeline using `actions/jekyll-build-pages` (avoids apt/Launchpad issues)
+- Removed `ci.yml` — pre-existing Beautiful Jekyll CI workflow that was failing on every push due to Launchpad network timeouts
+- Resolved git branch divergence between local Freelancer theme commits and remote Beautiful Jekyll commits
+- Updated `Gemfile` to use explicit gem versions compatible with Ruby 3.x (removed `gemspec` reference to old Freelancer gemspec)
 
-| Section | Current State | What It Should Say |
-|---|---|---|
-| Site description | "Write an awesome description..." | Your cybersecurity/consulting pitch |
-| Site URL in config | `github.com/jeromelachaud/freelancer-theme` | `https://the.raulmillan.com` |
-| About section | "Freelancer is a free bootstrap theme..." | Your professional bio |
-| Portfolio items | 6 fake 2014 placeholder projects | Services, featured work, or case studies |
-| Footer copyright | "Dr. Henry Jekyll" | Raúl E. Millán V. |
-| Footer address | "3481 Melrose Place, Beverly Hills" | Panama (or remove) |
-| Social links | Fake Twitter/Facebook/Stack Overflow | Your real LinkedIn, GitHub, etc. |
-| Nav items | Portfolio / About / Contact | Services / About / Contact (or similar) |
-| Contact form | formspree.io (no email set) | Your real email via Formspree |
+### Theme Migration
+- The remote repo was already using **Beautiful Jekyll**, not the old Freelancer theme
+- Fixed `_layouts/default.html` which still contained the Freelancer HTML layout causing build failures
+- Replaced `_config.yml` with a proper Beautiful Jekyll configuration
 
----
+### Content & Personalization
+- Updated `_config.yml` with real info: name, description, social links (LinkedIn, GitHub, Instagram), Panama timezone, correct URL
+- Updated `index.html` with English title and subtitle
+- Created `about.md` with professional bio
+- Translated all **22 blog posts** from Spanish to English (posts dating back to 2009)
+- Translated `bio.md`, `conferences.md`, and `events.md` from Spanish to English
+- Added `blog.md` to make the Blog nav link work correctly
+- Updated navbar to include an **About dropdown** with: About, Bio, Speaking, Events
 
-## 🔵 Tech Debt (Lower Priority)
-
-These won't break the site but should be addressed eventually:
-
-- jQuery 1.11.0 → should update to 3.x
-- Bootstrap 3.x → old but functional; Bootstrap 5 would be a bigger refactor
-- Font Awesome 4.x locally bundled → could use CDN v6 (gemspec already references 6.1.2)
-- `_site/` folder appears to be tracked in git — should be in `.gitignore`
-- `Rakefile` and `.gemspec` are present but no CI/CD uses them
-
----
-
-## 🗺️ Revival Roadmap
-
-### Phase 1 — Fix Deployment (Do First)
-1. [ ] Identify the correct GitHub Pages repo URL for this site
-2. [ ] Update git remote to point to your GitHub repo
-3. [ ] Create `CNAME` file with `the.raulmillan.com`
-4. [ ] Add `.github/workflows/jekyll.yml` (GitHub Actions build + deploy)
-5. [ ] Add `_site/` to `.gitignore`
-6. [ ] Resolve branch divergence (`git pull --rebase` or merge)
-7. [ ] Push and verify GitHub Pages builds successfully
-
-### Phase 2 — Personalize Content
-8. [ ] Update `_config.yml` — description, URL, skills, social links, address, footer copyright
-9. [ ] Rewrite `_includes/about.html` with your professional bio
-10. [ ] Replace placeholder portfolio posts with real content (services or featured work)
-11. [ ] Update `_includes/nav.html` — rename "Portfolio" to "Services" or "Work"
-12. [ ] Set up Formspree contact form with your real email
-13. [ ] Add LinkedIn to social links (currently missing!)
-14. [ ] Update profile image if needed
-
-### Phase 3 — Polish (Optional)
-15. [ ] Update jQuery to 3.x
-16. [ ] Migrate Font Awesome to CDN v6
-17. [ ] Review mobile responsiveness
-18. [ ] Add Google Analytics or Plausible
-19. [ ] Add meta OG tags for LinkedIn sharing
+### Profile & Branding
+- Updated profile photo to `IMG_6063.jpeg`
+- Copied profile photo to `assets/img/profile.jpeg` (path referenced by Beautiful Jekyll)
+- Generated dark navy (`#2c3e50`) shield favicon from scratch using Python PIL
+- Added favicon link tags to `_includes/head.html`
 
 ---
 
-## Key Files Reference
+## How the Site Works
+
+**Jekyll build cycle:**
+1. Push any change to `master`
+2. GitHub Actions triggers the `jekyll.yml` workflow
+3. `actions/jekyll-build-pages` builds the static site (no Ruby install needed)
+4. Output is deployed to GitHub Pages CDN
+5. Site is live at `the.raulmillan.com` in ~1–2 minutes
+
+**Key files:**
 
 | File | Purpose |
 |---|---|
-| `_config.yml` | Site-wide settings, title, social links, color theme |
-| `_includes/header.html` | Hero section (profile pic, name, skills tagline) |
-| `_includes/about.html` | About section content |
-| `_includes/nav.html` | Navigation bar items |
-| `_includes/footer.html` | Footer structure (reads from `_config.yml`) |
-| `_includes/portfolio_grid.html` | Portfolio grid (reads from `_posts/`) |
-| `_posts/` | One markdown file per portfolio/project item |
-| `img/profile.png` | Profile photo ✅ (already updated) |
+| `_config.yml` | Site-wide settings: title, social links, navbar, colors, plugins |
+| `index.html` | Homepage — uses `layout: home`, shows blog post list |
+| `about.md` | About page |
+| `bio.md` | Extended bio with affiliations and links |
+| `conferences.md` | Speaking engagements history |
+| `events.md` | Events attended |
+| `blog.md` | Blog listing page |
+| `_posts/YYYY-MM-DD-title.md` | Blog posts — filename date controls ordering |
+| `_includes/head.html` | HTML `<head>` — favicon link is here |
+| `assets/img/profile.jpeg` | Profile photo (used as navbar avatar) |
+| `assets/img/favicon.ico` | Dark navy shield favicon |
+| `.github/workflows/jekyll.yml` | GitHub Actions deploy pipeline |
 
 ---
 
-## Notes
-- The theme is a **single-page site** — everything lives on `index.html`, navigated by anchor links
-- The color scheme is already set: primary `#18bc9c` (teal) and secondary `#2c3e50` (dark) — solid professional palette, keep it
-- The profile image (`img/profile.png`) was already updated in your May 2025 commit — that part is done
+## Writing a New Blog Post
+
+Create a file in `_posts/` named `YYYY-MM-DD-your-title.md`:
+
+```markdown
+---
+layout: post
+title: Your Post Title
+subtitle: Optional subtitle
+tags: [cybersecurity, zero-trust]
+---
+
+Your content here in Markdown.
+```
+
+Then:
+```bash
+git add _posts/your-file.md
+git commit -m "New post: Your Post Title"
+git push
+```
+
+---
+
+## Remaining / Ideas
+
+- [ ] Change site title and homepage subtitle (currently `_config.yml` `title` and `index.html` subtitle)
+- [ ] Review and update older posts (2009–2018) — content may be outdated
+- [ ] Add cover images to blog posts for visual appeal
+- [ ] Set up Formspree contact form (hooks already in Beautiful Jekyll)
+- [ ] Add Google Analytics (`gtag` field in `_config.yml`)
+- [ ] Consider adding a dedicated "Services" or "Consulting" page
+- [ ] Review `bio.md` vs `about.md` — content overlaps; may want to consolidate or differentiate
+- [ ] Update `conferences.md` and `events.md` with any 2021–2026 activity
+
+---
+
+## Useful Commands
+
+```bash
+# Navigate to site folder
+cd ~/Developer/cowork/personal/website
+
+# Push a change
+git add .
+git commit -m "Your message"
+git push
+
+# Check deployment status
+# → https://github.com/theraulmillan/theraulmillan.github.io/actions
+```
